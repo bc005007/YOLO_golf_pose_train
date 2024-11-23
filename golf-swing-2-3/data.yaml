@@ -1,0 +1,18 @@
+train: /root/YOLO_golf_pose_train/golf-swing-2-3/train/ # 학습 이미지 경로
+val: /root/YOLO_golf_pose_train/golf-swing-2-3/valid/  # 검증 이미지 경로
+test: /root/YOLO_golf_pose_train/golf-swing-2-3/test/  # 테스트 이미지 경로 (선택 사항)
+
+names: # 클래스 이름
+  0: address
+  1: backswing
+  2: downswing
+  3: impact
+  4: finish
+
+
+  # 클래스별 이미지 파일 개수:
+  # 0: address(1758개)
+  # 1: backswing(1268개)
+  # 2: downswing(1245개)
+  # 3: impact(704개)
+  # 4: finish(2722개)
